@@ -15,9 +15,17 @@
     <input type="text" placeholder="Search..."><button>Enter</button>
     </div>
     <div class = "header-right">
+        <form>
         <a class = "active" href = "#home">Home</a>
         <a href = "#contact">Contact</a>
-        <a href = "#profile">myProfile</a>
+        <a href="{% url 'login' %}">myProfile
+            <ul>
+            <li>Log In</li>
+            <li>Sign Up</li>
+            <li>Profile</li>
+            </ul>
+        </a>
+        </form>
     </div>
 </header>
 
