@@ -5,7 +5,7 @@ This is a website which goal is to set goals, see the process of the goal. Creat
 This project is meant to be build in HTML5/CSS/PHP.
 ## Languages
 1) HTML5/CSS
-2) PHP
+2) Python
 ## Collaborators
 - Daniel Aguila
 - Austin Brown
