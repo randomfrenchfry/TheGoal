@@ -21,4 +21,5 @@ urlpatterns = [
     path('TheGoalsApp/', include('TheGoalApp.urls')),
     path('home/', include('TheGoalApp.urls')),
     path('admin/', admin.site.urls),
+    path('profile/', include('TheGoalApp.urls')),
 ]
