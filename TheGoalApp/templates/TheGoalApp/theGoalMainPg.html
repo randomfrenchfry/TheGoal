@@ -20,7 +20,7 @@
         <a>myProfile
             <ul>
                 <a href="{% url 'login' %}"><li>Log In</li></a>
-                <a href="#"><li>Sign Up</li></a>
+                <a href="{% url 'signup' %}"><li>Sign Up</li></a>
                 <a href="{% url 'profile'%}"><li>Profile</li></a>
             </ul>
         </a>
@@ -28,4 +28,7 @@
 </header>
 
 </body>
+{% block content %}
+<p>THIS IS THE DEFAULT CONTENT</p>
+{% endblock content %}
 </html>
