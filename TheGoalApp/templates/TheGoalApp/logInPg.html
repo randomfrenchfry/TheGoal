@@ -13,6 +13,11 @@
     <body>
     <img href="#" src="{% static "TheGoalApp/Images/AvatarDflt.jpg" %}">
     <h1>Welcome to the Login page</h1>
+    <form action ="" method ="post">
+      {% csrf_token %}
+      {{ form }}
+      <input type ="submit" value="Log In">
+    </form>
     </body>
   {% endblock content %}
 </html>
