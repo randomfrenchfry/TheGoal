@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-{% load static %}
+{% load staticfiles %}
 <head>
+    <script type="text/javascript">
+
+    </script>
     <meta charset="UTF-8">
     <title>My Goal</title>
-    <link rel="stylesheet" type="text/css" href="{% static "TheGoalApp/theGoalMainPg.css"%}">
+    <link rel="stylesheet" type="text/css" href="{% static "TheGoalApp/css/theGoalMainPg.css" %}">
 </head>
 <body>
 <header class = "header">
@@ -29,6 +32,8 @@
 
 </body>
 {% block content %}
-<p>THIS IS THE DEFAULT CONTENT</p>
+<p class="mega">4<span class="boom">0</span>4<div class="bola">
+</div></p>
+<p class="mini">That's an error.</p>
 {% endblock content %}
 </html>
