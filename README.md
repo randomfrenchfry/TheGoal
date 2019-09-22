@@ -11,7 +11,6 @@ This project is meant to be build in HTML5/CSS/PHP.
 - Daniel Aguila
 - Austin Brown
 ## FrameWorks
-- React
 - Django
 #
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDWp27vtoqpqP9bHfBNyJhr8fAR4um3S99IlxaVUU1YBOmSEmpIg)
